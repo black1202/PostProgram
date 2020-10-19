@@ -1,5 +1,4 @@
-let data = [];
-const URL2 = 'https://black1202.github.io/PostProgram/'
+var URL2 = 'https://black1202.github.io/PostProgram/'
 let st;
 
 function search2_6(num2,post_program) {
