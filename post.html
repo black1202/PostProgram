@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<script src='https://black1202.github.io/PostProgram/postnumber.js' charset="UTF-8"></script>
+<body>
+<!-- 現在使用している入力フォーム再現のため<form>内に<div>を記入 -->
+<form>
+<div class="post_program"> 
+<!--郵便番号1-->
+<!--上3桁入力、７桁入力、ハイフン使用の７桁入力対応-->
+<h3>郵便番号1</h3>
+<input type="text" class="post_num" size="10" style="font-size:25px;"/><br>
+<!--郵便番号2-->
+<!--下4桁-->
+<h3>郵便番号2</h3>
+<input type="text" class="post_num" size="10" style="font-size:25px;"/><br>
+<!--県と市以下で分けたい場合は strt_add1 strt_add2とそれぞれクラスを指定-->
+<h3>住所出力先方法１</h3>
+<input type="text" class='strt_add1' size="30" style="font-size:25px;"/><br>
+<input type="text" class='strt_add2' size="30" style="font-size:25px;"/><br>
+<!--分けずに出力したいなら strt_add <<数字はつけない とクラスを指定-->
+<h3>住所出力方法2</h3>
+<input type="text" class= 'strt_add' size="30" style="font-size:25px;"/><br>
+</div>
+</form>
+</body>
+</html>
