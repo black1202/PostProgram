@@ -1,4 +1,3 @@
-let data = [];
 const URL2 = 'https://black1202.github.io/PostProgram/'
 let st;
 
@@ -24,6 +23,7 @@ function getCSV(url,post_program){
 
 function CSVtoArray(str,post_program){
   let tmpdata = str.split("\n");
+  let data = [];
   for(let i=0;i<tmpdata.length;++i){
     data[i] = tmpdata[i].split(',');
   }
