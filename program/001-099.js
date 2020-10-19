@@ -1,4 +1,4 @@
-const URL2 = 'https://black1202.github.io/PostProgram/'
+var URL2 = 'https://black1202.github.io/PostProgram/'
 let st;
 
 /* 必要なcsvファイルを探す関数 */

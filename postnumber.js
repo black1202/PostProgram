@@ -1,5 +1,5 @@
 let postnum;
-const URL1 = 'https://black1202.github.io/PostProgram/program/'
+var URL1 = 'https://black1202.github.io/PostProgram/program/'
 
 /* ウィンドウが読み込まれたら実行する */
 window.addEventListener('load',function(){
